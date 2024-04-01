@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="8" total="16" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-23T05:23:32Z" name="Suite" finished-at="2023-05-23T05:23:32Z" duration-ms="131">
+    <groups>
+      <group name="exploratory">
+        <method signature="ClassThree.nameE()[pri:0, instance:lerarnTesting.ClassThree@59402b8f]" name="nameE" class="lerarnTesting.ClassThree"/>
+      </group> <!-- exploratory -->
+      <group name="functional">
+        <method signature="ClassOne.nameA()[pri:0, instance:lerarnTesting.ClassOne@7188af83]" name="nameA" class="lerarnTesting.ClassOne"/>
+        <method signature="ClassOne.nameB()[pri:0, instance:lerarnTesting.ClassOne@7188af83]" name="nameB" class="lerarnTesting.ClassOne"/>
+        <method signature="ClassThree.nameG()[pri:0, instance:lerarnTesting.ClassThree@59402b8f]" name="nameG" class="lerarnTesting.ClassThree"/>
+        <method signature="ClassTwo.nameE()[pri:0, instance:lerarnTesting.ClassTwo@496bc455]" name="nameE" class="lerarnTesting.ClassTwo"/>
+      </group> <!-- functional -->
+      <group name="system">
+        <method signature="ClassOne.nameC()[pri:0, instance:lerarnTesting.ClassOne@7188af83]" name="nameC" class="lerarnTesting.ClassOne"/>
+        <method signature="ClassTwo.nameD()[pri:0, instance:lerarnTesting.ClassTwo@496bc455]" name="nameD" class="lerarnTesting.ClassTwo"/>
+      </group> <!-- system -->
+      <group name="usability">
+        <method signature="ClassThree.nameG()[pri:0, instance:lerarnTesting.ClassThree@59402b8f]" name="nameG" class="lerarnTesting.ClassThree"/>
+      </group> <!-- usability -->
+      <group name="smoke">
+        <method signature="ClassTwo.nameD()[pri:0, instance:lerarnTesting.ClassTwo@496bc455]" name="nameD" class="lerarnTesting.ClassTwo"/>
+      </group> <!-- smoke -->
+      <group name="integration">
+        <method signature="ClassTwo.nameE()[pri:0, instance:lerarnTesting.ClassTwo@496bc455]" name="nameE" class="lerarnTesting.ClassTwo"/>
+      </group> <!-- integration -->
+      <group name="competibility">
+        <method signature="ClassThree.nameF()[pri:0, instance:lerarnTesting.ClassThree@59402b8f]" name="nameF" class="lerarnTesting.ClassThree"/>
+      </group> <!-- competibility -->
+      <group name="adhoc">
+        <method signature="ClassOne.nameA()[pri:0, instance:lerarnTesting.ClassOne@7188af83]" name="nameA" class="lerarnTesting.ClassOne"/>
+      </group> <!-- adhoc -->
+    </groups>
+    <test started-at="2023-05-23T05:23:32Z" name="Test" finished-at="2023-05-23T05:23:32Z" duration-ms="131">
+      <class name="lerarnTesting.ClassOne">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:lerarnTesting.ClassOne@7188af83]" started-at="2023-05-23T05:23:32Z" name="beforeMethod" finished-at="2023-05-23T05:23:32Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:lerarnTesting.ClassOne@7188af83]" started-at="2023-05-23T05:23:32Z" name="beforeClass" finished-at="2023-05-23T05:23:32Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="nameA()[pri:0, instance:lerarnTesting.ClassOne@7188af83]" started-at="2023-05-23T05:23:32Z" name="nameA" finished-at="2023-05-23T05:23:32Z" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nameA -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:lerarnTesting.ClassOne@7188af83]" started-at="2023-05-23T05:23:32Z" name="afterMethod" finished-at="2023-05-23T05:23:32Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="nameB()[pri:0, instance:lerarnTesting.ClassOne@7188af83]" started-at="2023-05-23T05:23:32Z" name="nameB" finished-at="2023-05-23T05:23:32Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nameB -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:lerarnTesting.ClassOne@7188af83]" started-at="2023-05-23T05:23:32Z" name="beforeMethod" finished-at="2023-05-23T05:23:32Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:lerarnTesting.ClassOne@7188af83]" started-at="2023-05-23T05:23:32Z" name="afterMethod" finished-at="2023-05-23T05:23:32Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:lerarnTesting.ClassOne@7188af83]" started-at="2023-05-23T05:23:32Z" name="beforeMethod" finished-at="2023-05-23T05:23:32Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="nameC()[pri:0, instance:lerarnTesting.ClassOne@7188af83]" started-at="2023-05-23T05:23:32Z" name="nameC" finished-at="2023-05-23T05:23:32Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nameC -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:lerarnTesting.ClassOne@7188af83]" started-at="2023-05-23T05:23:32Z" name="afterMethod" finished-at="2023-05-23T05:23:32Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:lerarnTesting.ClassOne@7188af83]" started-at="2023-05-23T05:23:32Z" name="afterClass" finished-at="2023-05-23T05:23:32Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- lerarnTesting.ClassOne -->
+      <class name="lerarnTesting.ClassTwo">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:lerarnTesting.ClassTwo@496bc455]" started-at="2023-05-23T05:23:32Z" name="beforeSuite" finished-at="2023-05-23T05:23:32Z" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:lerarnTesting.ClassTwo@496bc455]" started-at="2023-05-23T05:23:32Z" name="beforeTest" finished-at="2023-05-23T05:23:32Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:lerarnTesting.ClassTwo@496bc455]" started-at="2023-05-23T05:23:32Z" name="beforeClass" finished-at="2023-05-23T05:23:32Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="nameD()[pri:0, instance:lerarnTesting.ClassTwo@496bc455]" started-at="2023-05-23T05:23:32Z" name="nameD" finished-at="2023-05-23T05:23:32Z" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nameD -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:lerarnTesting.ClassTwo@496bc455]" started-at="2023-05-23T05:23:32Z" name="beforeMethod" finished-at="2023-05-23T05:23:32Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:lerarnTesting.ClassTwo@496bc455]" started-at="2023-05-23T05:23:32Z" name="afterMethod" finished-at="2023-05-23T05:23:32Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:lerarnTesting.ClassTwo@496bc455]" started-at="2023-05-23T05:23:32Z" name="beforeMethod" finished-at="2023-05-23T05:23:32Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="nameE()[pri:0, instance:lerarnTesting.ClassTwo@496bc455]" started-at="2023-05-23T05:23:32Z" name="nameE" finished-at="2023-05-23T05:23:32Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nameE -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:lerarnTesting.ClassTwo@496bc455]" started-at="2023-05-23T05:23:32Z" name="afterMethod" finished-at="2023-05-23T05:23:32Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:lerarnTesting.ClassTwo@496bc455]" started-at="2023-05-23T05:23:32Z" name="afterClass" finished-at="2023-05-23T05:23:32Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afteTest()[pri:0, instance:lerarnTesting.ClassTwo@496bc455]" started-at="2023-05-23T05:23:32Z" name="afteTest" finished-at="2023-05-23T05:23:32Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afteTest -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:lerarnTesting.ClassTwo@496bc455]" started-at="2023-05-23T05:23:32Z" name="afterSuite" finished-at="2023-05-23T05:23:32Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- lerarnTesting.ClassTwo -->
+      <class name="lerarnTesting.ClassThree">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:lerarnTesting.ClassThree@59402b8f]" started-at="2023-05-23T05:23:32Z" name="beforeMethod" finished-at="2023-05-23T05:23:32Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:lerarnTesting.ClassThree@59402b8f]" started-at="2023-05-23T05:23:32Z" name="beforeClass" finished-at="2023-05-23T05:23:32Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="nameE()[pri:0, instance:lerarnTesting.ClassThree@59402b8f]" started-at="2023-05-23T05:23:32Z" name="nameE" finished-at="2023-05-23T05:23:32Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nameE -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:lerarnTesting.ClassThree@59402b8f]" started-at="2023-05-23T05:23:32Z" name="afterMethod" finished-at="2023-05-23T05:23:32Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:lerarnTesting.ClassThree@59402b8f]" started-at="2023-05-23T05:23:32Z" name="beforeMethod" finished-at="2023-05-23T05:23:32Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="nameF()[pri:0, instance:lerarnTesting.ClassThree@59402b8f]" started-at="2023-05-23T05:23:32Z" name="nameF" finished-at="2023-05-23T05:23:32Z" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nameF -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:lerarnTesting.ClassThree@59402b8f]" started-at="2023-05-23T05:23:32Z" name="afterMethod" finished-at="2023-05-23T05:23:32Z" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:lerarnTesting.ClassThree@59402b8f]" started-at="2023-05-23T05:23:32Z" name="beforeMethod" finished-at="2023-05-23T05:23:32Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="nameG()[pri:0, instance:lerarnTesting.ClassThree@59402b8f]" started-at="2023-05-23T05:23:32Z" name="nameG" finished-at="2023-05-23T05:23:32Z" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nameG -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:lerarnTesting.ClassThree@59402b8f]" started-at="2023-05-23T05:23:32Z" name="afterMethod" finished-at="2023-05-23T05:23:32Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:lerarnTesting.ClassThree@59402b8f]" started-at="2023-05-23T05:23:32Z" name="afterClass" finished-at="2023-05-23T05:23:32Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- lerarnTesting.ClassThree -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

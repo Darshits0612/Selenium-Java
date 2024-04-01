@@ -1,0 +1,10 @@
+package BinaryPrograms;
+
+public class BinaryIntoOctal {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,32 @@
+package programing;
+
+public class primenum {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int n=7;
+		int count=0;
+		while(n<=2)
+		{
+			for(int i=2;i<n;i++)
+			{
+				if(n%i==1)
+				{
+				count++;
+				break;
+				}
+			}
+			
+		}
+		if(count==n)
+		{
+			System.out.println("prime number");
+		}
+		else
+		{
+			System.out.println("not prime");
+		}
+	}
+
+}

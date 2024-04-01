@@ -1,0 +1,52 @@
+package obj;
+
+class Bike
+{
+	String name;
+	int mileage;
+	double price;
+	
+	Bike(String name,int mileage,double price)
+	{
+		this.name=name;
+		this.mileage=mileage;
+		this.price=price;
+		
+	}
+	public String toString()
+	{
+		return name;
+	}
+	public boolean equals(Object obj)
+	{
+		return((Bike)obj).mileage==this.mileage;
+	}
+	public int hashCode()
+	{
+		return mileage;
+	}
+}
+
+public class Driver2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Bike b1=new Bike("pulser",60,100000);
+		Bike b2=new Bike("splender",60,80000);
+		
+		System.out.println(b1.equals(b2));
+		System.out.println(b1.hashCode());
+		System.out.println(b2.hashCode());
+		
+		Bike b3=new Bike("jawa",30,300000);
+		Bike b4=new Bike("ra",35,300020);
+		
+		System.out.println(b3.equals(b4));
+		System.out.println(b3.hashCode());
+		System.out.println(b4.hashCode());
+		
+		
+	}
+
+}

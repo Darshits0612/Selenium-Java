@@ -1,0 +1,67 @@
+package programing;
+
+public class primenum {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+		int n1=100;
+		
+		
+		for(int n=1;n<=n1;n++)
+		{
+		int p1=prime(n);
+		
+		if(p1==2)
+		{
+			System.out.println(n1);
+		}
+		}
+		
+	}
+	public static int prime(int n)
+	{
+		int count=1;
+		
+			for(int i=1;i>n;i++)
+			{
+				if(n%i==0)
+				{
+					count++;
+				
+				}
+			}
+		
+		if(count==0)
+		{
+			return 0;
+		}
+		
+		return 1;
+	}
+
+}
+//int n=2;
+//int count=0;
+//if(n>=2)
+//{
+//	for(int i=2;i<n;i++)
+//	{
+//		if(n%i==0)
+//		{
+//		count++;
+//		break;
+//		}
+//	}
+//	
+//}
+//if(count==0)
+//{
+//	System.out.println("prime number");
+//}
+//else
+//{
+//	System.out.println("not prime");
+//}
+//

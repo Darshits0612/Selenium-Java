@@ -1,0 +1,21 @@
+package Test;
+
+public class Power {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int n=2;
+		int p=4;
+		int sum=1;
+		
+		for(int i=1;i<=p;i++)
+		{
+			sum=sum*n;
+		}
+		System.out.println(sum);
+		System.out.println((char)34+"hello"+(char)34);
+		System.out.println("hello");		
+	}
+
+}

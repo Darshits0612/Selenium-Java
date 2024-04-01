@@ -1,0 +1,44 @@
+package programing;
+
+public class primenum {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int n=1;
+		int n1=100;
+		
+		for(int i=n;i<=n1;i++)
+		{
+			boolean p1=prime(i);
+		
+		if(p1==true)
+		{
+			System.out.println(i);
+		}
+		}
+		
+	}
+	public  boolean prime(int n)
+	{
+		int count=0;
+		if(n<=2)
+		{
+			for(int i=2;i<n;i++)
+			{
+				if(n%i==0)
+				{
+					count++;
+					break;
+				}
+			}
+		}
+		if(count==0)
+		{
+			return true;
+		}
+		
+		return false;
+	}
+
+}
